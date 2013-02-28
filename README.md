@@ -59,12 +59,12 @@ Okay, how do you use it in your projects? Here you go, it's just a few steps.
 &lt;/div&gt;<br/>
 &lt;div class="cpContent"&gt;<br/>
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis justo nec ante facilisis aliquam. Nam vitae sem est. Nam at tristique tortor. Maecenas non risus nulla. 
-    Curabitur libero metus, laoreet nec ultricies id, commodo vitae felis. Curabitur interdum commodo hendrerit. Suspendisse sit amet eros nulla. Donec faucibus posuere libero. Nunc 
-    laoreet leo et justo lobortis eu placerat metus bibendum. In consequat urna ut nibh dapibus a euismod erat consectetur. Aliquam in pharetra lorem. Integer ac arcu nec ante pharetra 
-    dictum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis justo nec ante facilisis aliquam. Nam vitae sem est. Nam at tristique tortor. Maecenas non risus nulla. 
-    Curabitur libero metus, laoreet nec ultricies id, commodo vitae felis. Curabitur interdum commodo hendrerit. Suspendisse sit amet eros nulla. Donec faucibus posuere libero. Nunc 
-    laoreet leo et justo lobortis eu placerat metus bibendum. In consequat urna ut nibh dapibus a euismod erat consectetur. Aliquam in pharetra lorem. Integer ac arcu nec ante pharetra 
-    dictum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis justo nec ante facilisis aliquam. Nam vitae sem est. Nam at tristique tortor. Maecenas non risus nulla. 
+    <br/>Curabitur libero metus, laoreet nec ultricies id, commodo vitae felis. Curabitur interdum commodo hendrerit. Suspendisse sit amet eros nulla. Donec faucibus posuere libero. Nunc 
+    <br/>laoreet leo et justo lobortis eu placerat metus bibendum. In consequat urna ut nibh dapibus a euismod erat consectetur. Aliquam in pharetra lorem. Integer ac arcu nec ante pharetra 
+    <br/>dictum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis justo nec ante facilisis aliquam. Nam vitae sem est. Nam at tristique tortor. Maecenas non risus nulla. 
+    <br/>Curabitur libero metus, laoreet nec ultricies id, commodo vitae felis. Curabitur interdum commodo hendrerit. Suspendisse sit amet eros nulla. Donec faucibus posuere libero. Nunc 
+    <br/>laoreet leo et justo lobortis eu placerat metus bibendum. In consequat urna ut nibh dapibus a euismod erat consectetur. Aliquam in pharetra lorem. Integer ac arcu nec ante pharetra 
+    <br/>dictum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis justo nec ante facilisis aliquam. Nam vitae sem est. Nam at tristique tortor. Maecenas non risus nulla. 
 &lt;/div&gt;<br/>
 </code>
 
