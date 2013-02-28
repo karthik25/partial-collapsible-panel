@@ -21,35 +21,40 @@ Okay, how do you use it in your projects? Here you go, it's just a few steps.
 
 1. include the css required
 
-&lt;style type="text/css"&gt;
-.cpHeader
-{
-    background-color: #6A6A6A;
-    border: solid 1px  #6A6A6A;
-    width: 450px;
-    color: White;
+<div style="border-left: 5px solid #BDBDBD; padding: 5px">
+&lt;style type="text/css"&gt;<br/>
+.cpHeader<br/>
+{<br/>
+    background-color: #6A6A6A;<br/>
+    border: solid 1px  #6A6A6A;<br/>
+    width: 450px;<br/>
+    color: White;<br/>
 }
- 
-.cpContent
-{
-    background-color: #dadada; 
-    border:1px solid #6A6A6A;
-    width: 450px;
-    color: Black;
+ <br/>
+.cpContent<br/>
+{<br/>
+    background-color: #dadada; <br/>
+    border:1px solid #6A6A6A;<br/>
+    width: 450px;<br/>
+    color: Black;<br/>
 }
+<br/>
 &lt;/style&gt;
-
+</div>
 2. Include jquery and partial collapsible panel javascript files
 
+<div style="border-left: 5px solid #BDBDBD; padding: 5px">
 &lt;script type="text/javascript" language="javascript" src="jquery.min.js"&gt;&lt;/script&gt;
 &lt;script type="text/javascript" language="javascript" src="partial-collapsible-panel.minified.js"&gt;&lt;/script&gt;
+</div>
 
 3. Following is an example section that you could apply this plugin
 
-&lt;div class="cpHeader"&gt;
-    Lorem Ipsum
-&lt;/div&gt;
-&lt;div class="cpContent"&gt;
+<div style="border-left: 5px solid #BDBDBD; padding: 5px">
+&lt;div class="cpHeader"&gt;<br/>
+    Lorem Ipsum<br/>
+&lt;/div&gt;<br/>
+&lt;div class="cpContent"&gt;<br/>
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis justo nec ante facilisis aliquam. Nam vitae sem est. Nam at tristique tortor. Maecenas non risus nulla. 
     Curabitur libero metus, laoreet nec ultricies id, commodo vitae felis. Curabitur interdum commodo hendrerit. Suspendisse sit amet eros nulla. Donec faucibus posuere libero. Nunc 
     laoreet leo et justo lobortis eu placerat metus bibendum. In consequat urna ut nibh dapibus a euismod erat consectetur. Aliquam in pharetra lorem. Integer ac arcu nec ante pharetra 
@@ -57,11 +62,14 @@ Okay, how do you use it in your projects? Here you go, it's just a few steps.
     Curabitur libero metus, laoreet nec ultricies id, commodo vitae felis. Curabitur interdum commodo hendrerit. Suspendisse sit amet eros nulla. Donec faucibus posuere libero. Nunc 
     laoreet leo et justo lobortis eu placerat metus bibendum. In consequat urna ut nibh dapibus a euismod erat consectetur. Aliquam in pharetra lorem. Integer ac arcu nec ante pharetra 
     dictum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis justo nec ante facilisis aliquam. Nam vitae sem est. Nam at tristique tortor. Maecenas non risus nulla. 
-&lt;/div&gt;
+&lt;/div&gt;<br/>
+</div>
 
 4. Finally, apply the plugin!
 
+<div style="border-left: 5px solid #BDBDBD; padding: 5px">
 $('.cpHeader').partialcollapsiblepanel();
+</div>
 
 <b>Options</b>
 
