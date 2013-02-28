@@ -1,0 +1,240 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>thekfactor.info :: plugins :: partial collapsible panel</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<script type="text/javascript" language="javascript" src="jquery-1.6.2.min.js"></script>
+<script type="text/javascript" language="javascript" src="partial-collapsible-panel.minified.js"></script>
+<script type="text/javascript" language="javascript">
+    $(document).ready(function () {
+        $('.cpHeader').partialcollapsiblepanel();
+
+        $('.cpHeader1').partialcollapsiblepanel({ 'contentHeight': 80, 'enableHeaderImage': true, 'expandedImageUrl': 'images/down.png', 'collapsedImageUrl': 'images/up.png', 'padHeader': false, 'padContent': false, 'contentClass': 'cpContent1' });
+
+        $('.cpHeader2').partialcollapsiblepanel({ 'contentHeight': 80, 'enableHeaderImage': true, 'expandedImageUrl': 'images/down.png', 'collapsedImageUrl': 'images/up.png', 'contentClass': 'cpContent2' });
+    });
+</script>
+<style type="text/css">
+body {
+	margin: 0px;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #838383;
+}
+
+#header {
+	width: 920px;
+	height: 50px;
+	margin: 0 auto;
+	padding-top: 10px;
+}
+
+#menu {
+	float: left;
+	width: 500px;
+}
+
+#menu ul {
+	margin: 0;
+	padding: 8px 0px 0px 0px;
+	list-style: none;
+	line-height: normal;
+}
+
+#menu li {
+	display: block;
+	float: left;
+}
+
+a {
+	display: block;
+	margin: 0px 6px;
+	text-decoration: none;
+	letter-spacing: 4px;
+	text-align: center;
+	text-transform: lowercase;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #8E8E8E;
+}
+
+#menu a {
+	display: block;
+	float: left;
+	margin: 0px 6px;
+	padding: 6px 20px 6px 20px;
+	letter-spacing: -1px;
+	text-decoration: none;
+	text-align: center;
+	text-transform: lowercase;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #8E8E8E;
+}
+
+#menu a:hover {
+	text-decoration: none;
+	background: #6A6A6A;
+	color: #FFFFFF;
+}
+
+</style>
+
+	<style type="text/css">
+	    .header {
+	        width: 920px;
+	        height: 50px;
+	        margin: 0 auto;
+	        padding-top: 10px;
+        }
+
+		.cpHeader
+		{
+	        background-color: #6A6A6A;
+	        border: solid 1px  #6A6A6A;
+			width: 500px;
+			color: White;
+		}
+
+		.cpContent
+		{
+	        background-color: #dadada; 
+	        border:1px solid #6A6A6A;
+			width: 500px;
+			color: Black;
+		}
+        
+		.cpHeader1
+		{
+	        background-color: #6A6A6A;
+	        border: solid 1px  #6A6A6A;
+			width: 500px;
+			color: White;
+		}
+
+		.cpContent1
+		{
+	        background-color: #dadada; 
+	        border:1px solid #6A6A6A;
+			width: 500px;
+			color: Black;
+		}
+
+		.cpHeader2
+		{
+	        background-color: #6A6A6A;
+	        border: solid 1px  #6A6A6A;
+			width: 500px;
+			color: White;
+		}
+
+		.cpContent2
+		{
+			width: 500px;
+	        border:1px solid #6A6A6A;
+	        color: Black;
+		}
+</style>
+</head>
+<body>
+<div id="header">
+
+<h2>partial collapsible panel</h2>
+
+<div>
+    <table border="0" cellspacing="20">
+        <tr>
+            <td><b>content with a background color</b></td>
+            <td></td>
+        </tr>
+        <tr>
+        <td valign="top">
+        <div class="cpHeader">
+            Lorem Ipsum
+        </div>
+        <div class="cpContent">
+	        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis justo nec ante facilisis aliquam. Nam vitae sem est. Nam at tristique tortor. Maecenas non risus nulla. 
+	        Curabitur libero metus, laoreet nec ultricies id, commodo vitae felis. Curabitur interdum commodo hendrerit. Suspendisse sit amet eros nulla. Donec faucibus posuere libero. Nunc 
+	        laoreet leo et justo lobortis eu placerat metus bibendum. In consequat urna ut nibh dapibus a euismod erat consectetur. Aliquam in pharetra lorem. Integer ac arcu nec ante pharetra 
+	        dictum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis justo nec ante facilisis aliquam. Nam vitae sem est. Nam at tristique tortor. Maecenas non risus nulla. 
+	        Curabitur libero metus, laoreet nec ultricies id, commodo vitae felis. Curabitur interdum commodo hendrerit. Suspendisse sit amet eros nulla. Donec faucibus posuere libero. Nunc 
+	        laoreet leo et justo lobortis eu placerat metus bibendum. In consequat urna ut nibh dapibus a euismod erat consectetur. Aliquam in pharetra lorem. Integer ac arcu nec ante pharetra 
+	        dictum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis justo nec ante facilisis aliquam. Nam vitae sem est. Nam at tristique tortor. Maecenas non risus nulla. 
+        </div>
+        </td>
+        <td valign="top"  align="right">
+            <b>jquery to achieve this:</b><br /><br />
+            $('.cpHeader').partialcollapsiblepanel();
+        </td>
+        </tr>
+        <tr>
+        <td valign="top" align="left">
+            <b>jquery to achieve this:</b><br /><br />
+            $('.cpHeader1').partialcollapsiblepanel({ 'contentHeight': 80, <br />
+            <div style="margin-left: 100px;">
+            'enableHeaderImage': true, <br />
+            'expandedImageUrl': 'down.png', <br />
+            'collapsedImageUrl': 'up.png',
+            'padHeader': false, <br />
+            'padContent': false,
+            'contentClass': 'cpContent1' });<br />
+            </div>
+        </td>
+        <td valign="top">
+        <div class="cpHeader1">
+            Lorem Ipsum
+        </div>
+        <div class="cpContent1">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis justo nec ante facilisis aliquam. Nam vitae sem est. Nam at tristique tortor. Maecenas non risus nulla. 
+            Curabitur libero metus, laoreet nec ultricies id, commodo vitae felis. Curabitur interdum commodo hendrerit. Suspendisse sit amet eros nulla. Donec faucibus posuere libero. Nunc 
+            laoreet leo et justo lobortis eu placerat metus bibendum. In consequat urna ut nibh dapibus a euismod erat consectetur. Aliquam in pharetra lorem. Integer ac arcu nec ante pharetra 
+            dictum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis justo nec ante facilisis aliquam. Nam vitae sem est. Nam at tristique tortor. Maecenas non risus nulla. 
+            Curabitur libero metus, laoreet nec ultricies id, commodo vitae felis. Curabitur interdum commodo hendrerit. Suspendisse sit amet eros nulla. Donec faucibus posuere libero. Nunc 
+            laoreet leo et justo lobortis eu placerat metus bibendum. In consequat urna ut nibh dapibus a euismod erat consectetur. Aliquam in pharetra lorem. Integer ac arcu nec ante pharetra 
+            dictum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis justo nec ante facilisis aliquam. Nam vitae sem est. Nam at tristique tortor. Maecenas non risus nulla. 
+        </div>
+        </td>
+        </tr>
+        <tr>
+            <td><b>content without a background color</b></td>
+            <td></td>
+        </tr>
+        <tr>
+        <td valign="top">
+        <div class="cpHeader2">
+            Lorem Ipsum
+        </div>
+        <div class="cpContent2">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis justo nec ante facilisis aliquam. Nam vitae sem est. Nam at tristique tortor. Maecenas non risus nulla. 
+            Curabitur libero metus, laoreet nec ultricies id, commodo vitae felis. Curabitur interdum commodo hendrerit. Suspendisse sit amet eros nulla. Donec faucibus posuere libero. Nunc 
+            laoreet leo et justo lobortis eu placerat metus bibendum. In consequat urna ut nibh dapibus a euismod erat consectetur. Aliquam in pharetra lorem. Integer ac arcu nec ante pharetra 
+            dictum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis justo nec ante facilisis aliquam. Nam vitae sem est. Nam at tristique tortor. Maecenas non risus nulla. 
+            Curabitur libero metus, laoreet nec ultricies id, commodo vitae felis. Curabitur interdum commodo hendrerit. Suspendisse sit amet eros nulla. Donec faucibus posuere libero. Nunc 
+            laoreet leo et justo lobortis eu placerat metus bibendum. In consequat urna ut nibh dapibus a euismod erat consectetur. Aliquam in pharetra lorem. Integer ac arcu nec ante pharetra 
+            dictum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis justo nec ante facilisis aliquam. Nam vitae sem est. Nam at tristique tortor. Maecenas non risus nulla. 
+            Curabitur libero metus, laoreet nec ultricies id, commodo vitae felis. Curabitur interdum commodo hendrerit. Suspendisse sit amet eros nulla. Donec faucibus posuere libero. Nunc 
+            laoreet leo et justo lobortis eu placerat metus bibendum. In consequat urna ut nibh dapibus a euismod erat consectetur. Aliquam in pharetra lorem. Integer ac arcu nec ante pharetra 
+            dictum.
+            </div>
+        </td>
+        <td valign="top" align="right">
+            <b>jquery to achieve this:</b><br /><br />
+            $('.cpHeader2').partialcollapsiblepanel({ 'contentHeight': 80, <br />
+            <div style="margin-left:100px;">
+            'enableHeaderImage': true,  <br />
+            'expandedImageUrl': 'down.png',  <br />
+            'collapsedImageUrl': 'up.png',  <br />
+            'contentClass': 'cpContent2' }); <br />
+            </div>
+	    </td>
+	    </tr>
+    </table>
+</div>
+</div>
+</body>
+</html>
