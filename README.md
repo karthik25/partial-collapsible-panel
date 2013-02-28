@@ -4,8 +4,9 @@ Copyright (c) 2013 Karthik Ananthapadmanaban
 Dual licensed under the MIT and GPL licenses.
 http://docs.jquery.com/License
 
-Date: 02-27-2013
-Project Page: http://thekfactor.info/projects/partial-collapsible-panel
+<b>Date:</b> 02-27-2013<br/>
+<b>Project Page:</b> http://thekfactor.info/projects/partial-collapsible-panel<br/>
+<br/><br/>
 
 <b>Intro:</b>
 
@@ -18,10 +19,11 @@ Partial collapsible panel is a jquery plugin that is similar to ajax control too
 <b>How to use it?</b>
 
 Okay, how do you use it in your projects? Here you go, it's just a few steps.
+<br/><br/>
 
-1. include the css required
+<b><i>Include the css required</i></b><br/>
 
-<div style="border-left: 5px solid #BDBDBD; padding: 5px">
+<code>
 &lt;style type="text/css"&gt;<br/>
 .cpHeader<br/>
 {<br/>
@@ -40,17 +42,18 @@ Okay, how do you use it in your projects? Here you go, it's just a few steps.
 }
 <br/>
 &lt;/style&gt;
-</div>
-2. Include jquery and partial collapsible panel javascript files
+</code>
 
-<div style="border-left: 5px solid #BDBDBD; padding: 5px">
+<b><i>Include jquery and partial collapsible panel javascript files</i></b><br/>
+
+<code>
 &lt;script type="text/javascript" language="javascript" src="jquery.min.js"&gt;&lt;/script&gt;
 &lt;script type="text/javascript" language="javascript" src="partial-collapsible-panel.minified.js"&gt;&lt;/script&gt;
-</div>
+</code>
 
-3. Following is an example section that you could apply this plugin
+<b><i>Following is an example section that you could apply this plugin</i></b><br/>
 
-<div style="border-left: 5px solid #BDBDBD; padding: 5px">
+<code>
 &lt;div class="cpHeader"&gt;<br/>
     Lorem Ipsum<br/>
 &lt;/div&gt;<br/>
@@ -63,13 +66,13 @@ Okay, how do you use it in your projects? Here you go, it's just a few steps.
     laoreet leo et justo lobortis eu placerat metus bibendum. In consequat urna ut nibh dapibus a euismod erat consectetur. Aliquam in pharetra lorem. Integer ac arcu nec ante pharetra 
     dictum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis justo nec ante facilisis aliquam. Nam vitae sem est. Nam at tristique tortor. Maecenas non risus nulla. 
 &lt;/div&gt;<br/>
-</div>
+</code>
 
-4. Finally, apply the plugin!
+<b><i>Finally, apply the plugin!</i></b><br/>
 
-<div style="border-left: 5px solid #BDBDBD; padding: 5px">
+<code>
 $('.cpHeader').partialcollapsiblepanel();
-</div>
+</code>
 
 <b>Options</b>
 
