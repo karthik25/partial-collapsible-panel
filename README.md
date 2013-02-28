@@ -1,4 +1,4 @@
-jQuery collapsible panel v2.0
+<h2>jQuery collapsible panel v2.0</h2>
 
 Copyright (c) 2013 Karthik Ananthapadmanaban
 Dual licensed under the MIT and GPL licenses.
@@ -21,7 +21,7 @@ Okay, how do you use it in your projects? Here you go, it's just a few steps.
 
 1. include the css required
 
-<style type="text/css">
+&lt;style type="text/css"&gt;
 .cpHeader
 {
     background-color: #6A6A6A;
@@ -37,19 +37,19 @@ Okay, how do you use it in your projects? Here you go, it's just a few steps.
     width: 450px;
     color: Black;
 }
-</style>
+&lt;/style&gt;
 
 2. Include jquery and partial collapsible panel javascript files
 
-<script type="text/javascript" language="javascript" src="jquery.min.js"></script>
-<script type="text/javascript" language="javascript" src="partial-collapsible-panel.minified.js"></script>
+&lt;script type="text/javascript" language="javascript" src="jquery.min.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" language="javascript" src="partial-collapsible-panel.minified.js"&gt;&lt;/script&gt;
 
 3. Following is an example section that you could apply this plugin
 
-<div class="cpHeader">
+&lt;div class="cpHeader"&gt;
     Lorem Ipsum
-</div>
-<div class="cpContent">
+&lt;/div&gt;
+&lt;div class="cpContent"&gt;
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis justo nec ante facilisis aliquam. Nam vitae sem est. Nam at tristique tortor. Maecenas non risus nulla. 
     Curabitur libero metus, laoreet nec ultricies id, commodo vitae felis. Curabitur interdum commodo hendrerit. Suspendisse sit amet eros nulla. Donec faucibus posuere libero. Nunc 
     laoreet leo et justo lobortis eu placerat metus bibendum. In consequat urna ut nibh dapibus a euismod erat consectetur. Aliquam in pharetra lorem. Integer ac arcu nec ante pharetra 
@@ -57,7 +57,7 @@ Okay, how do you use it in your projects? Here you go, it's just a few steps.
     Curabitur libero metus, laoreet nec ultricies id, commodo vitae felis. Curabitur interdum commodo hendrerit. Suspendisse sit amet eros nulla. Donec faucibus posuere libero. Nunc 
     laoreet leo et justo lobortis eu placerat metus bibendum. In consequat urna ut nibh dapibus a euismod erat consectetur. Aliquam in pharetra lorem. Integer ac arcu nec ante pharetra 
     dictum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis justo nec ante facilisis aliquam. Nam vitae sem est. Nam at tristique tortor. Maecenas non risus nulla. 
-</div>       
+&lt;/div&gt;
 
 4. Finally, apply the plugin!
 
@@ -65,14 +65,55 @@ $('.cpHeader').partialcollapsiblepanel();
 
 <b>Options</b>
 
-name			type/values	description
---------------------------------------------------------
-contentHeight		integer		Collapsed content width. default is 60.
-animateSpeed		integer		The speed at which the content collapses/expands. default is 500.
-enableHeaderImage	boolean		If the header contains an image that has to be replaced. default is false
-headerImageClass	string		Css class of the image in the header div. applicable only if header image is enabled. default is <blank>
-expandedImageUrl	string		Image url to be used if header image is enabled and the content is expanded. applicable only if header image is enabled.                                         	default is <blank>
-collapsedImageUrl	string		Image url to be used if header image is enabled and the content is collapsed. applicable only if header image is enabled.                                         	default is <blank>
-contentClass		string		Css class of the content for the associated header. default is cpContent.
-padHeader		boolean		Specify if content inside the header has to be padded. the padding width is 2px
-padContent		boolean		Specify if content inside the content has to be padded. the padding width is 2px
+<table border="1" id="tblOptions">
+	<tr class="alt">
+	    <th><b>name</b></th>
+	    <th><b>type/values</b></th>
+	    <th><b>description</b></th>
+	</tr>
+	<tr>
+	    <td>contentHeight</td>
+	    <td>integer</td>
+	    <td>collapsed content width. default is <b>60</b>.</td>
+	</tr>
+	<tr class="alt">
+	    <td>animateSpeed</td>
+	    <td>integer</td>
+	    <td>the speed at which the content collapses/expands. default is <b>500</b>.</td>
+	</tr>
+	<tr>
+	    <td>enableHeaderImage</td>
+	    <td>boolean</td>
+	    <td>if the header contains an image that has to be replaced. default is <b>false</b></td>
+	</tr>
+	<tr class="alt">
+	    <td>headerImageClass</td>
+	    <td>string</td>
+	    <td>css class of the image in the header div. applicable only if header image is enabled. default is <b>&lt;blank&gt;</b></td>
+	</tr>
+	<tr>
+	    <td>expandedImageUrl</td>
+	    <td>string</td>
+	    <td>image url to be used if header image is enabled and the content is expanded. applicable only if header image is enabled. default is <b>&lt;blank&gt;</b></td>
+	</tr>
+	<tr class="alt">
+	    <td>collapsedImageUrl</td>
+	    <td>string</td>
+	    <td>image url to be used if header image is enabled and the content is collapsed. applicable only if header image is enabled. default is <b>&lt;blank&gt;</b></td>
+	</tr>
+	<tr>
+	    <td>contentClass</td>
+	    <td>string</td>
+	    <td>css class of the content for the associated header. default is <b>cpContent</b>.</td>
+	</tr>
+	<tr class="alt">
+	    <td>padHeader</td>
+	    <td>boolean</td>
+	    <td>specify if content inside the header has to be padded. the padding width is <b>2px</b></td>
+	</tr>
+	<tr>
+	    <td>padContent</td>
+	    <td>boolean</td>
+	    <td>specify if content inside the content has to be padded. the padding width is <b>2px</b></td>
+	</tr>
+</table> 
