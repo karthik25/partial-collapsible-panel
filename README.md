@@ -23,57 +23,55 @@ Okay, how do you use it in your projects? Here you go, it's just a few steps.
 
 <b><i>Include the css required</i></b><br/>
 
-<code>
-&lt;style type="text/css"&gt;<br/>
-.cpHeader<br/>
-{<br/>
-    background-color: #6A6A6A;<br/>
-    border: solid 1px  #6A6A6A;<br/>
-    width: 450px;<br/>
-    color: White;<br/>
+```html
+<style type="text/css">
+.cpHeader
+{
+    background-color: #6A6A6A;
+    border: solid 1px  #6A6A6A;
+    width: 450px;
+    color: White;
 }
- <br/>
-.cpContent<br/>
-{<br/>
-    background-color: #dadada; <br/>
-    border:1px solid #6A6A6A;<br/>
-    width: 450px;<br/>
-    color: Black;<br/>
+ 
+.cpContent
+{
+    background-color: #dadada;
+    border:1px solid #6A6A6A;
+    width: 450px;
+    color: Black;
 }
-<br/>
-&lt;/style&gt;
-</code>
+</style>
+```
 
 <b><i>Include jquery and partial collapsible panel javascript files</i></b><br/>
 
-<code>
-&lt;script type="text/javascript" language="javascript" src="jquery.min.js"&gt;&lt;/script&gt;
-&lt;script type="text/javascript" language="javascript" src="partial-collapsible-panel.minified.js"&gt;&lt;/script&gt;
-</code>
+```html
+<script type="text/javascript" language="javascript" src="jquery.min.js" />
+<script type="text/javascript" language="javascript" src="partial-collapsible-panel.minified.js" />
+```
 
 <b><i>Following is an example section that you could apply this plugin</i></b><br/>
 
-<code>
-&lt;div class="cpHeader"&gt;<br/>
-    Lorem Ipsum<br/>
-&lt;/div&gt;<br/>
-&lt;div class="cpContent"&gt;<br/>
+```html
+<div class="cpHeader">
+    Lorem Ipsum
+</div>
+<div class="cpContent">
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis justo nec ante facilisis aliquam. Nam vitae sem est. Nam at tristique tortor. Maecenas non risus nulla. 
-    <br/>Curabitur libero metus, laoreet nec ultricies id, commodo vitae felis. Curabitur interdum commodo hendrerit. Suspendisse sit amet eros nulla. Donec faucibus posuere libero. Nunc 
-    <br/>laoreet leo et justo lobortis eu placerat metus bibendum. In consequat urna ut nibh dapibus a euismod erat consectetur. Aliquam in pharetra lorem. Integer ac arcu nec ante pharetra 
-    <br/>dictum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis justo nec ante facilisis aliquam. Nam vitae sem est. Nam at tristique tortor. Maecenas non risus nulla. 
-    <br/>Curabitur libero metus, laoreet nec ultricies id, commodo vitae felis. Curabitur interdum commodo hendrerit. Suspendisse sit amet eros nulla. Donec faucibus posuere libero. Nunc 
-    <br/>laoreet leo et justo lobortis eu placerat metus bibendum. In consequat urna ut nibh dapibus a euismod erat consectetur. Aliquam in pharetra lorem. Integer ac arcu nec ante pharetra 
-    <br/>dictum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis justo nec ante facilisis aliquam. Nam vitae sem est. Nam at tristique tortor. Maecenas non risus nulla. 
-    <br/>
-&lt;/div&gt;<br/>
-</code>
+    Curabitur libero metus, laoreet nec ultricies id, commodo vitae felis. Curabitur interdum commodo hendrerit. Suspendisse sit amet eros nulla. Donec faucibus posuere libero. Nunc 
+    laoreet leo et justo lobortis eu placerat metus bibendum. In consequat urna ut nibh dapibus a euismod erat consectetur. Aliquam in pharetra lorem. Integer ac arcu nec ante pharetra 
+    dictum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis justo nec ante facilisis aliquam. Nam vitae sem est. Nam at tristique tortor. Maecenas non risus nulla. 
+    Curabitur libero metus, laoreet nec ultricies id, commodo vitae felis. Curabitur interdum commodo hendrerit. Suspendisse sit amet eros nulla. Donec faucibus posuere libero. Nunc 
+    laoreet leo et justo lobortis eu placerat metus bibendum. In consequat urna ut nibh dapibus a euismod erat consectetur. Aliquam in pharetra lorem. Integer ac arcu nec ante pharetra 
+    dictum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis justo nec ante facilisis aliquam. Nam vitae sem est. Nam at tristique tortor. Maecenas non risus nulla.     
+</div>
+```
 
 <b><i>Finally, apply the plugin!</i></b><br/>
 
-<code>
+```javascript
 $('.cpHeader').partialcollapsiblepanel();
-</code>
+```
 
 <b>Options</b>
 
