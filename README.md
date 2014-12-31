@@ -5,7 +5,6 @@ Dual licensed under the MIT and GPL licenses.
 http://docs.jquery.com/License
 
 <b>Date:</b> 02-27-2013<br/>
-<b>Project Page:</b> http://thekfactor.info/projects/partial-collapsible-panel<br/>
 <br/><br/>
 
 <b>Intro:</b>
